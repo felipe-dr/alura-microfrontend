@@ -6,7 +6,11 @@
   "dependencies": {
     "styled-components": "^6.1.10"
   },
+  "scripts": {
+    "lint": "eslint './**/*.{ts,tsx}'"
+  },
   "devDependencies": {
-    "@alura/tsconfig-commons": "*"
+    "@alura/tsconfig-commons": "*",
+    "@alura/eslint-commons": "*"
   }
 }
